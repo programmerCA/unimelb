@@ -6,7 +6,7 @@ OpenCV opencv;
 
 void setup() {
   size(720, 480);
-  video = new Movie(this, "street.mov");
+  video = new Movie(this, "CA.mov");
   opencv = new OpenCV(this, 720, 480);
   
   opencv.startBackgroundSubtraction(5, 3, 0.5);
